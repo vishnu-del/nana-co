@@ -223,6 +223,7 @@ window.addEventListener('resize', function () {
 
 function changeText() {
   document.getElementById("service").innerHTML = "SERVICES";
+  document.getElementById('pose').src = 'assets/images/pose.webp';
 }
 
 // Function to update header class based on scroll position
@@ -238,4 +239,6 @@ function updateHeaderClass() {
 
 // Event listener for the scroll event
 window.addEventListener('scroll', updateHeaderClass);
+
+
 
