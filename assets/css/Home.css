@@ -757,7 +757,7 @@
 }
 
 .u-section-3 .u-text-1 {
-  font-size: 3.75rem;
+  font-size: 3rem;
   text-transform: uppercase;
   margin: 0;
 }
@@ -776,7 +776,7 @@
 .u-section-3 .u-image-1 {
   min-height: 613px;
   background-image: url("../images/rdte.webp");
-  background-position: 50% 50%;
+
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -812,6 +812,27 @@
   background-image: none;
   margin: 33px 0 0 auto;
 }
+
+@media (min-width: 1200px){
+  .u-section-3 .u-layout-cell-1 {
+    flex-basis: 36.667%;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  
+  .u-section-3 .u-image-1{
+    flex-basis: 35%;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
+  .u-section-3 .u-layout-cell-3{
+    flex-basis: 28.333%;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+}
+
 
 @media (max-width: 1199px) {
   .u-section-3 .u-sheet-1 {
